@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.main {
+    text-align: center;
+    color: #A17E7A;
+    font-family: "Maven Pro", sans-serif;
+    overflow: hidden;
+    width: 1400px;
+    margin: auto;
+}
+
+.logo {
+    width: 250px;
+    margin: 0 auto 25px;
+}
+
+.banner {
+    background-image: url(img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto 50px;
+}
+
+.banner p {
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 30px;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.destaque {
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.case {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 120px;
+    height: 1250px;
+    width: 1400px;
+    margin: auto;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin-top: 100px;
+}
+
+.fotos img {
+    width: 350px;
+}
+
+.case p {
+    text-align: left;
+    font-size: 38px;
+    line-height: 48px;
+    color: #5D4E2E;
+    margin-left: 250px;
+}
+
+.case p:nth-child(2) {
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+    color: #000;
+}
+
+.detail {
+    border-right: 1px solid #DBA49D;
+    padding: 20px 20px;
+    width: 350px;
+    text-align: left;
+}
+
+.detail:last-child {
+    border: 0;
+}
+
+.detail h3 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.detail p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 38px;
+}
+
+.detail p.small {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+}
+
+.detail button {
+    border: 1px solid #DBA49D;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.insta {
+    width: 180px;
+    margin: 60px auto 0;
+}
+
+.direitos {
+    background-color: #000;
+    color: #FFF;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+
+.direitos p {
+    font-size: 12px;
+}
