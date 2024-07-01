@@ -92,12 +92,12 @@ export default function RootLayout({ children }) {
                     </div>
 
                     <img src="img/insta.png" alt="@letifitwear - Instagram Leti Fitwear" className="insta" />
+                </div>
 
-                    <div className="direitos">
-                        <p>
-                            @letifitwear | 2024 - todos os direitos reservados
-                        </p>
-                    </div>
+                <div className="direitos">
+                    <p>
+                        @letifitwear | 2024 - todos os direitos reservados
+                    </p>
                 </div>
             </body>
         </html>
