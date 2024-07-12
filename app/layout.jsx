@@ -74,24 +74,26 @@ export default function RootLayout({ children }) {
                                 Entre em contato com<br/>
                                 as nossas vendedoras
                             </p>
-                            <button>
+                            <button onClick={() => window.open('https://api.whatsapp.com/send?phone=5521977220933', '_blank')}>
                                 Whatsapp
                             </button>
                         </div>
                         <div className="detail">
-                            <h3>Quero importar:</h3>
+                            <h3>Quero importar?</h3>
                             <p>
-                                A Leti está no varejo internacional<br/>
-                                entre em contato para ver<br/>
+                                A Leti está no atacado internacional<br/>
+                                entre em contato para ver as<br/>
                                 nossas condições comerciais.
                             </p>
                             <p className="small">
-                                leti_internacional@letifitwear.com.br
+                                <a href="mailto:leti_internacional@letifitwear.com.br">leti_internacional@letifitwear.com.br</a>
                             </p>
                         </div>
                     </div>
 
-                    <img src="img/insta.png" alt="@letifitwear - Instagram Leti Fitwear" className="insta" />
+                    <a href='https://www.instagram.com/letifitwear/'>
+                        <img src="img/insta.png" alt="@letifitwear - Instagram Leti Fitwear" className="insta" />
+                    </a>
                 </div>
 
                 <div className="direitos">
