@@ -74,9 +74,11 @@ export default function RootLayout({ children }) {
                                 Entre em contato com<br/>
                                 as nossas vendedoras
                             </p>
-                            <button onClick={() => window.open('https://api.whatsapp.com/send?phone=5521977220933', '_blank')}>
-                                Whatsapp
-                            </button>
+                            <a href="https://api.whatsapp.com/send?phone=5521977220933" target="_blank" rel="noopener noreferrer">
+                                <button>
+                                    Whatsapp
+                                </button>
+                            </a>
                         </div>
                         <div className="detail">
                             <h3>Quero importar?</h3>
@@ -91,7 +93,7 @@ export default function RootLayout({ children }) {
                         </div>
                     </div>
 
-                    <a href='https://www.instagram.com/letifitwear/'>
+                    <a href='https://www.instagram.com/letifitwear/' target='_blank'>
                         <img src="img/insta.png" alt="@letifitwear - Instagram Leti Fitwear" className="insta" />
                     </a>
                 </div>
