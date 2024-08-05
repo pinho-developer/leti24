@@ -64,8 +64,8 @@ export default function RootLayout({ children }) {
                             <h3>Onde encontrar a Leti</h3>
                             <p>
                                 Brasil - Rio de Janeiro<br/>
-                                Av. Américas 500 loja 111i<br/>
-                                Barra da tijuca
+                                Av. Américas 700 loja 111i<br/>
+                                Città América - Barra da tijuca
                             </p>
                         </div>
                         <div className="detail">
@@ -84,11 +84,11 @@ export default function RootLayout({ children }) {
                             <h3>Quero importar?</h3>
                             <p>
                                 A Leti está no atacado internacional<br/>
-                                entre em contato para ver as<br/>
+                                entre em contato para ver<br/>
                                 nossas condições comerciais.
                             </p>
                             <p className="small">
-                                <a href="mailto:leti_internacional@letifitwear.com.br">leti_internacional@letifitwear.com.br</a>
+                                <a href="mailto:exportacao.letifitwear@gmail.com">exportacao.letifitwear@gmail.com</a>
                             </p>
                         </div>
                     </div>
